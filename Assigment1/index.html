@@ -1,0 +1,54 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <title> To Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js" defer></script>
+    <script src="fetch.js" defer></script>
+    
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOZoRro6CnKCfRkXK8AFHcBPhMd_rutMk&callback=initMap"
+    ></script>
+    <script src="geo.js"  async defer ></script>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Galada&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+    <div class="div1">
+        <header>
+            <h1>List of shopping centers </h1>
+        </header>
+        <main>
+            <div class="div2">
+                <p>List of Centers:</p>
+                <input type="text" id="newSub" placeholder="Add new shopping centers here!!">
+                <button onclick="List()" class="addbutton">+</button>
+                <audio id="audio" src="http://reboot-me.com/ouch.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="div3">
+                <ul id="ul1">
+
+                </ul>
+
+            </div>
+            <section id ="fresh"class="row">
+            <h2>Fresh deals</h2>
+            </section>
+            <section class="row">
+                <h2> shopping Stores Near You</h2>
+                <button id="mylocation">Is There A shopping Stores Near Me?</button>
+                <p id="location"></p>
+                
+                <div id="map"></div>
+              </section>
+        </main>
+    </div>
+</body>
+
+</html>

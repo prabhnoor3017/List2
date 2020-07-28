@@ -1,0 +1,19 @@
+{
+	"List": [{
+			"Name": "Aldo",
+			"image": "aldo.png"
+		},
+		{
+			"Name": "Sport Check",
+			"image": "sport-chek.jpg"
+		},
+		{
+			"Name": "Sephora",
+			"image": "sephora.png"
+		},
+		{
+			"Name": "H&M",
+			"image": "Hm.png"
+		}
+	]
+}

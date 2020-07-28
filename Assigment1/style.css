@@ -1,0 +1,85 @@
+body {
+    background-image: url("image2.jpg");
+    background-repeat: inherit;
+
+
+}
+
+div.div1 {
+    background-color: rgb(38, 147, 161);
+    margin: 15px;
+    padding: 15px;
+}
+
+div.div2 {
+    background-color: rgb(129, 189, 211);
+    /* padding: 15px; */
+
+}
+
+div.div2>p {
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h1 {
+    background: honeydew;
+    text-align: center;
+}
+
+li {
+    display: inherit;
+}
+
+button.addbutton {
+    color: brown;
+    width: 250 px;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button.deletbtn {
+    width: 75px;
+    height: 25px;
+    border-radius: 15px;
+    color: cornflowerblue;
+    background-color: aliceblue;
+    font-size: 15px;
+}
+
+p#newp {
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section {
+    border: 1px dashed #333;
+    padding: 3em 0 3em 0;
+
+}
+
+section img {
+
+    width: 20%;
+    height: 20%;
+    /* vertical-align: middle; */
+    content: "";
+    clear: both;
+    display: table;
+
+
+}
+
+#mylocation {
+    margin: 4em 0;
+}
+
+#map {
+    height: 400px;
+    width: 900px;
+}
